@@ -1,5 +1,5 @@
-all: mystring.c mystring.h
-		gcc -o strings mystring.c
+all: main.c
+		gcc -o strings main.c
 
 run:
 		./strings
