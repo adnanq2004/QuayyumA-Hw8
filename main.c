@@ -51,13 +51,13 @@ int main() {
   printf("[mine]:\t\t[%p]\n", mystrchr(s1, 'z') );
 
   printf("\nTesting strcmp\n");
-  printf("\tComparting ab to abc:\n");
+  printf("\tComparing ab to abc:\n");
   printf("\t\t[standard]:\t[%d]\n", strcmp("ab", "abc") );
   printf("\t\t[mine]:\t\t[%d]\n", mystrcmp("ab", "abc") );
-  printf("\tComparting abc to ab:\n");
+  printf("\tComparing abc to ab:\n");
   printf("\t\t[standard]:\t[%d]\n", strcmp("abc", "ab") );
   printf("\t\t[mine]:\t\t[%d]\n", mystrcmp("abc", "ab") );
-  printf("\tComparting abc to abc:\n");
+  printf("\tComparing abc to abc:\n");
   printf("\t\t[standard]:\t[%d]\n", strcmp("abc", "abc") );
   printf("\t\t[mine]:\t\t[%d]\n", mystrcmp("abc", "abc") );
 
